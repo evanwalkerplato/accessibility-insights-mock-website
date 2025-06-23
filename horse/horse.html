@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Accessibility Training</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="header" class="header">
+        <a class="skip" href="#main">Skip to content</a>    
+        <a class="logo" href="../home.html"><h1>Farm Animals</h1></a>
+        <ul class="navbar" aria-label="navigation">
+            <a href="../cow/cow.html"><li class="nav">Cow</li></a>
+            <a href="horse.html"><li class="nav">Horse</li></a>
+            <a href="../goat/goat.html"><li class="nav">Goat</li></a>
+        </ul>
+      </div>
+    <main id="main">
+        <h3>Horse</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <div class="tooltip">Hover to learn more about horses
+          <span class="tooltiptext"><a href="https://en.wikipedia.org/wiki/Horse">Click here!</a></span>
+        </div>
+        <p id="test" aria-label="testing form validation"></p>
+        <div id="horse-form" class="horse-form">
+          <h2>Subscribe Now!</h2>
+          <h3>Horse quarterly</h3>
+          <form onsubmit="return false">
+            <label for="first-name-hq">First Name</label><br>
+            <input type="text" id="first-name-hq" name="first-name">
+            <div id="first-name-error-hq">This field is required</div><br>
+            <label for="last-name-hq">Last Name</label><br>
+            <input type="text" id="last-name-hq" name="last-name">
+            <div id="last-name-error-hq">This field is required</div><br>
+            <label for="phone-hq">Phone</label><br>
+            <input type="number" id="phone-hq" name="phone">
+            <div id="phone-error-hq">This field is required</div><br>
+            <label for="email-hq">Email</label><br>
+            <input type="email" id="email-hq" name="email">
+            <div id="email-error-hq">This field is required</div><br>
+            <input id="subscribe-hq" type="submit" value="Subscribe">
+            <dialog id="auth-hq">
+              <p id="time-output-hq"></p>
+              <p>Please solve for x</p>
+              <img src="/media/accessibility_website_authorization.png">
+            </dialog>
+          </form>
+          <h3>Morse Code & Horses</h3>
+          <p>a one stop shop for equestrians and morse code enthusiasts</p>
+          <form onsubmit="return false">
+            <label for="first-name-mch">First Name</label><br>
+            <input type="text" id="first-name-mch" name="first-name">
+            <div id="first-name-error-mch">This field is required</div><br>
+            <label for="last-name-mch">Last Name</label><br>
+            <input type="text" id="last-name-mch" name="last-name">
+            <div id="last-name-error-mch">This field is required</div><br>
+            <label for="phone-mch">Phone</label><br>
+            <input type="number" id="phone-mch" name="phone">
+            <div id="phone-error-mch">This field is required</div><br>
+            <label for="email-mch">Email</label><br>
+            <input type="email" id="email-mch" name="email">
+            <div id="email-error-mch">This field is required</div><br>
+            <input id="subscribe-mch" type="submit" value="Subscribe">
+            <dialog id="auth-mch">
+              <p id="time-output-mch"></p>
+              <p>Please solve for x</p>
+              <img src="/media/accessibility_website_authorization.png">
+            </dialog>
+          </form>
+        </div>
+        <button id="open-popup">open</button>
+        <div id="div-popup">
+          <p id="text-popup">this is a test</p>
+          <button id="close-popup">close</button>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="footer-text">
+          <p class="footer-title"><strong>For the love of all animals</strong></p>
+          <p class="footer-content">But especially farm animals</p>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank" aria-label="facebook"><div class="fa fa-facebook"></div></a>
+          <a href="https://x.com/" target="_blank" aria-label="X"><div class="fa fa-twitter"></div></a>
+          <a href="https://ca.linkedin.com/" target="_blank" aria-label="Linked In"><div class="fa fa-linkedin"></div></a>
+          <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><div class="fa fa-instagram"></div></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
