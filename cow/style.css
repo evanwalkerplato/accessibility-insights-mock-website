@@ -1,0 +1,146 @@
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  color: azure;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+}
+
+.logo {
+  width: 40%;
+  text-align: center;
+  color: azure;
+  text-decoration: none;
+}
+
+.logo:hover {
+opacity: 0.7;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+.nav {
+  max-width: 10%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  color: azure;
+}
+
+.nav:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.footer-title {
+color: azure;
+text-align: center;
+}
+
+.footer-content {
+color: azure;
+text-align: center;
+}
+
+.footer-text {
+  width: 40%;
+  justify-content: center;
+  color: azure;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 60%;
+  list-style-type: none;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  max-width: 10%;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: azure;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: azure;
+}
+
+ /* Linked-In */
+ .fa-linkedin {
+  color: azure;
+}
+
+ /* Instagram */
+ .fa-instagram {
+  color: azure;
+}
+
+#main {
+  text-align: center;
+}
+
+.animal-link {
+  display: flex;
+  justify-content: center;
+  max-width: 30%;
+  max-height: 500px;
+  margin: auto;
+}
+
+.animal {
+  max-width: 100%;
+  max-height: auto;
+}
+
+#submit {
+  background-color: green;
+  width: 80px;
+  
+}

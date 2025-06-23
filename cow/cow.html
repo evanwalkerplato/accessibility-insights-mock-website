@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    
+    <div id="header" class="header">
+        <a class="skip" href="#main">Skip to content</a>    
+        <a class="logo" href="../home.html"><h1>Farm Animals</h1></a>
+        <ul class="navbar" aria-label="navigation">
+            <a href="cow.html"><li class="nav">Cow</li></a>
+            <a href="../horse/horse.html"><li class="nav">Horse</li></a>
+            <a href="../goat/goat.html"><li class="nav">Goat</li></a>
+        </ul>
+      </div>
+    <div id="main">
+      <!--audio courtesy of user tdes and downloaded from https://freesound.org/people/tdes/sounds/126358/-->
+        <audio autoplay>
+          <source src="/media/126358__tdes__herd-of-cows-mooing.wav" type="audio/wav">
+          Your browser does not support this audio file
+        </audio> 
+        <h1>Cow</h1>
+        <p aria-hidden="true">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <h2 id=>Click on Moogana the wise for the word of the day!</h2>
+        <div id="moogana" class="animal-link">
+          <img class="animal" src="/media/cow_wise_words.jpg" alt="moogana the wise">
+          <!--image courtesy of Kseniya Konovets from https://unsplash.com/photos/brown-cow-on-gray-sand-during-daytime-rB734RW4xdE-->
+        </div>
+
+
+        <h2>Build a cow</h2>
+        <p>After you have built your cow please click on the green button</p>
+        <h3>Colour</h3>
+        <input id="red" type="radio" name="colour">
+        <label for="red">Red</label>
+        <input id="blue" type="radio" name="colour">
+        <label for="blue">Blue</label>
+        <input id="green" type="radio" name="colour">
+        <label for="green">Green</label>
+        <input id="yellow" type="radio" name="colour">
+        <label for="yellow">Yellow</label>
+        <h3>Pattern</h3>
+        <input id="striped" type="radio" name="pattern">
+        <label for="striped">Striped</label>
+        <input id="checkered" type="radio" name="pattern">
+        <label for="checkered">Checkered</label>
+        <input id="spotted" type="radio" name="pattern">
+        <label for="spotted">Spotted</label>
+        <h3>Size</h3>
+        <input id="small" type="radio" name="size">
+        <label for="small">Small</label>
+        <input id="medium" type="radio" name="size">
+        <label for="medium">Medium</label>
+        <input id="large" type="radio" name="size">
+        <label for="large">Large</label>
+        <h3>Name</h3>
+        <input id="name" type="text">
+        <input id="submit" type="submit" value = "">
+
+        <p id="result"></p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KjmuBo8xoCU?si=o9twVkeQP3tNc1Df" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+      </div>
+    <footer id="footer" class="footer">
+        <div class="footer-text">
+          <p class="footer-title"><strong>For the love of all animals</strong></p>
+          <p class="footer-content">But especially farm animals</p>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank" aria-label="facebook"><div class="fa fa-facebook"></div></a>
+          <a href="https://x.com/" target="_blank" aria-label="X"><div class="fa fa-twitter"></div></a>
+          <a href="https://ca.linkedin.com/" target="_blank" aria-label="Linked In"><div class="fa fa-linkedin"></div></a>
+          <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><div class="fa fa-instagram"></div></a>
+        </div>
+    </footer>
+    <script src="/cow/index.js"></script>
+  </body>
+</html>
