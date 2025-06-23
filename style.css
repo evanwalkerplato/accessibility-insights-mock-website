@@ -1,0 +1,221 @@
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    color: azure;
+  }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+}
+
+.logo {
+    width: 40%;
+    text-align: center;
+    color: azure;
+    text-decoration: none;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+.nav {
+    max-width: 10%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: azure;
+}
+
+.nav:hover {
+    opacity: 0.7;
+  }
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.footer-title {
+  color: azure;
+  text-align: center;
+}
+
+.footer-content {
+  color: azure;
+  text-align: center;
+}
+
+.footer-text {
+    width: 40%;
+    justify-content: center;
+    color: azure;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 60%;
+    list-style-type: none;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    max-width: 10%;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color: azure;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color: azure;
+  }
+
+   /* Linked-In */
+   .fa-linkedin {
+    color: azure;
+  }
+
+   /* Instagram */
+   .fa-instagram {
+    color: azure;
+  }
+
+  #main {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .pic1 {
+    max-width: 50%;
+    max-height: auto;
+  }
+
+
+  .animal-select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    max-width: 80%;
+  }
+
+  .animal-link {
+    display: flex;
+    justify-content: center;
+    max-width: 30%;
+    max-height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .animal {
+    max-width: 100%;
+    max-height: auto;
+    margin: 10px;
+  }
+  
+  .animal-link:hover {
+    opacity: 0.7;
+  }
+
+  #spacer {
+    width: 75%;
+    height: 5px;
+    background-color: gray;
+    margin: auto;
+  }
+
+  .slide-show {
+    margin: auto;
+    max-width: 75%;
+  }
+
+  .flex-slide {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .mySlides {
+    display: none;
+    max-width: 50%;
+    max-height: 500px;
+
+  }
+
+  .first-slide {
+    display: block
+  }
+
+  .slideshow-button-left {
+    height: 30px;
+  }
+
+  .slideshow-button-right {
+    height: 30px;
+  }
+
+  .page-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 0px;
+    padding-top: 0px;
+    list-style-type: none;
+    background-color: blanchedalmond;
+  }
+
+  .page-nav-list {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .page-nav-link {
+    color: purple;
+    text-decoration: none;
+  }

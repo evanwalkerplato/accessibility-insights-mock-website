@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Farm Animals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <div id="header" class="header">
+        <a class="skip" href="#main">Skip to content</a>    
+        <a class="logo" href="home.html"><h1>Farm Animals</h1></a>
+        <ul class="navbar" aria-label="navigation">
+            <a href="cow/cow.html"><li class="nav">Cow</li></a>
+            <a href="horse/horse.html"><li class="nav">Horse</li></a>
+            <a href="goat/goat.html"><li class="nav">Goat</li></a>
+        </ul>
+    </div>
+    <nav>
+        <ul class="page-nav">
+          <li class="page-nav-list">
+            <a class="page-nav-link" href="#know-more">know more</a>
+          </li>
+          <li class="page-nav-list">
+            <a class="page-nav-link" href="#pick-animal">pick animal</a>
+          </li>
+        </ul>
+      </nav>
+    <main id="main">  
+        <h1>Farm Animals</h1>
+        <img class="pic1" src="/media/home_pic1.jpg" alt="Cows standing in grassy field with hills, trees and clouds in the background"></img>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <h2 id="know-more">Want to know more?</h2>
+        <p>Please select the adorable farm animal you would like to know better</p>
+        <div class="animal-select">
+          <a class="animal-link" href="/cow/cow.html"><img class="animal" alt="cow" src="/media/cow_home.jpg"></a>
+          <!--Cow image courtesy of Alaina McLearnon from https://unsplash.com/photos/white-and-black-cow-on-grass-field-P_t9mRLFoRs-->
+          <a class="animal-link" href="/horse/horse.html"><img class="animal" alt="#" src="/media/horse_home.jpg"></a>
+          <!--Horse image courtesy of Pieter van Noorden from https://unsplash.com/photos/brown-and-white-horse-head-cjSUZMA2iW8-->
+          <a class="animal-link" href="/goat/goat.html"><img class="animal" src="/media/goat_home.jpg"></a>
+          <!--Goat image courtesy of Peter Lloyd from https://unsplash.com/photos/shallow-focus-photography-of-white-and-black-goat-o96Lf_wuM5o-->
+        </div>
+        <div id="spacer" aria-label="horizontal spacer"></div>
+        <div class="slide-show">
+          <h2 id="pick-animal">Pick our next animal!</h2>
+          <button>Submit</button>
+          <div class="flex-slide">
+            <button class="slideshow-button-left" onclick="plusDivs(-1)" aria-label="previous">&#10094;</button> 
+            <img id="carousel-animal" class="mySlides first-slide" src="/media/chicken_carousel.jpg" alt="brown chicken walking across green grass"> 
+            <!--Chicken carousel image courtesy of James Wainscoat from https://unsplash.com/photos/brown-chicken-on-green-grass-field-during-daytime-yEW23jxVsNI-->
+            <img id="carousel-animal" class="mySlides" src="/media/sheep_carousel.jpg" alt="white sheep looking into camera standing in fron of herd">
+            <!--Sheep carousel image courtesy of Sam Carter from https://unsplash.com/photos/white-sheep-on-green-grass-during-daytime-GHOiyov2TSQ-->
+            <img id="carousel-animal" class="mySlides" src="/media/duck_carousel.jpg" alt="duck with beak open looking at camera">
+            <!--Duck carousel image courtesy of Ross Sokolovski from https://unsplash.com/photos/brown-and-white-duck-on-gray-concrete-floor-kCZSzqvIei4-->
+            <img id="carousel-animal" class="mySlides" src="/media/donkey_carousel.jpg" alt="donkey standing behind an ivy fence with ears standing up">
+            <!--Donkey carousel image courtesy of Virginia Long from https://unsplash.com/photos/brown-horse-Yh2HnPoGbPw-->
+            <button class="slideshow-button-right" onclick="plusDivs(+1)" aria-label="next">&#10095;</button>
+          </div>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="footer-text">
+          <p class="footer-title"><strong>For the love of all animals</strong></p>
+          <p class="footer-content">But especially farm animals</p>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank" aria-label="facebook"><div class="fa fa-facebook"></div></a>
+          <a href="https://x.com/" target="_blank" aria-label="X"><div class="fa fa-twitter"></div></a>
+          <a href="https://ca.linkedin.com/" target="_blank" aria-label="Linked In"><div class="fa fa-linkedin"></div></a>
+          <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><div class="fa fa-instagram"></div></a>
+        </div>
+    </footer>
+  </body>
+</html>
